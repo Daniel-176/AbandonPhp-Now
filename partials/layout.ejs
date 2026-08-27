@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title><%= typeof title !== 'undefined' ? title : 'Home' %></title>
+    <script type="text/javascript" src="/js/jquery/jquery-1.7.2.min.js"></script> 
+    <link rel="stylesheet" href="/CSS/StyleGuide.css"> 
+    <script type="text/javascript" src="/js/roblox.js"></script>
+    <link rel="stylesheet" href="/CSS/Fetch.CSS">
+    <style>
+        html { background: #123f83; }
+    </style>
+</head>
+<body>
+    <%- include('header') %>
+    <div class="forceSpace">&nbsp;</div>
+    <noscript>
+        <div class="SystemAlert">
+            <div class="SystemAlertText">Please enable Javascript to use all the features on this site.</div>
+        </div>
+    </noscript>
+    <div id="BodyWrapper">
+        <div id="RepositionBody">
+            <div id="Body" style="width:970px">
+                <%- body %>
+            </div>
+        </div>
+    </div>
+    <%- include('footer') %>
+</body>
+</html>
