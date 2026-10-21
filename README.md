@@ -1,5 +1,5 @@
 # Yes, its faster
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/eaf6aec1-9012-4c04-ae80-af69ec12e3fd" />
+<img width="1919" height="1038" alt="image" src="https://github.com/user-attachments/assets/12bd4446-d589-4be4-a3df-0b46c1a511ce" />
 
-simple as that
+and probably wont will have a CVE page saying about it's vulnerabilities :)
